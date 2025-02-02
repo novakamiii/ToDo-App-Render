@@ -13,9 +13,9 @@
 10. Open CMD from the copied ToDO-App and run docker init
 11. php ver = 8.2, current directory, port 9000
 12. After the process, put the copied dockerfile and compose.yaml files from earlier and into that folder.
-13. After the proces, press v
+13. go back to cmd and type docker-compose up --build, after the process, press v
 14. On the docker destop, click the port (it is running locally)
-15. Once okay and read your database. Time for render deployment
+15. Once okay and the local site read your database. Time for render deployment
 16. Open cmd to the folder and type docker images
 17. copy the docker image info and type this docker tag dockerinfohere:latest yourusernaame/example_todo-app
 18. go to render and add a new webservice
