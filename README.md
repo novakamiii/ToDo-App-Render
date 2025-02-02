@@ -17,7 +17,7 @@
 14. On the docker destop, click the port (it is running locally)
 15. Once okay and read your database. Time for render deployment
 16. Open cmd to the folder and type docker images
-17. copy the docker image info and type this docker tag docker tag dockerinfohere:latest yourusernaame/example_todo-app
+17. copy the docker image info and type this docker tag dockerinfohere:latest yourusernaame/example_todo-app
 18. go to render and add a new webservice
 19. click existing image and type yourusername/example_todo-app:latest
 20. Name it to yourn liking and select free instance
